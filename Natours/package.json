@@ -1,0 +1,15 @@
+{
+    "name": "natours",
+    "version": "1.0.0",
+    "description": "Natours project for learning advanced css and scss",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass scss/main.scss css/compiled.css -w",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Tezaswi Raj",
+    "license": "ISC",
+    "dependencies": {
+        "node-sass": "^7.0.1"
+    }
+}
